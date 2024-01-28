@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50A551F2B66D45D0062C6D8 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A551E2B66D45D0062C6D8 /* PaywallView.swift */; };
+		C50A55232B66E5620062C6D8 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A55222B66E5620062C6D8 /* CameraManager.swift */; };
+		C50A55252B66E5B10062C6D8 /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A55242B66E5B10062C6D8 /* FrameManager.swift */; };
+		C50A55282B66E6310062C6D8 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A55272B66E6310062C6D8 /* CameraView.swift */; };
+		C50A552B2B66E6ED0062C6D8 /* CameraFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A552A2B66E6ED0062C6D8 /* CameraFrameView.swift */; };
+		C50A552D2B66E70A0062C6D8 /* CombineCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A552C2B66E70A0062C6D8 /* CombineCameraView.swift */; };
+		C50A55302B66E7570062C6D8 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A552F2B66E7570062C6D8 /* ToggleButton.swift */; };
+		C50A55322B66E7840062C6D8 /* CombineCameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A55312B66E7840062C6D8 /* CombineCameraViewModel.swift */; };
+		C50A55342B66E7B50062C6D8 /* AVCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A55332B66E7B50062C6D8 /* AVCameraView.swift */; };
+		C50A55362B66E7DC0062C6D8 /* AVViewoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A55352B66E7DC0062C6D8 /* AVViewoPlayerView.swift */; };
+		C50A55382B66E82A0062C6D8 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A55372B66E82A0062C6D8 /* ErrorView.swift */; };
 		C51F728C2B65A9DB00820AD1 /* PlanetAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51F728B2B65A9DB00820AD1 /* PlanetAppApp.swift */; };
 		C51F728E2B65A9DB00820AD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51F728D2B65A9DB00820AD1 /* ContentView.swift */; };
 		C51F72902B65A9DC00820AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51F728F2B65A9DC00820AD1 /* Assets.xcassets */; };
@@ -43,6 +54,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C50A551E2B66D45D0062C6D8 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		C50A55222B66E5620062C6D8 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		C50A55242B66E5B10062C6D8 /* FrameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameManager.swift; sourceTree = "<group>"; };
+		C50A55272B66E6310062C6D8 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		C50A552A2B66E6ED0062C6D8 /* CameraFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFrameView.swift; sourceTree = "<group>"; };
+		C50A552C2B66E70A0062C6D8 /* CombineCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCameraView.swift; sourceTree = "<group>"; };
+		C50A552F2B66E7570062C6D8 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		C50A55312B66E7840062C6D8 /* CombineCameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCameraViewModel.swift; sourceTree = "<group>"; };
+		C50A55332B66E7B50062C6D8 /* AVCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCameraView.swift; sourceTree = "<group>"; };
+		C50A55352B66E7DC0062C6D8 /* AVViewoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVViewoPlayerView.swift; sourceTree = "<group>"; };
+		C50A55372B66E82A0062C6D8 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		C51F72882B65A9DB00820AD1 /* PlanetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51F728B2B65A9DB00820AD1 /* PlanetAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetAppApp.swift; sourceTree = "<group>"; };
 		C51F728D2B65A9DB00820AD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +112,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C50A55202B66E5340062C6D8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C50A55222B66E5620062C6D8 /* CameraManager.swift */,
+				C50A55242B66E5B10062C6D8 /* FrameManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		C50A55292B66E6CA0062C6D8 /* CombineCameraViewMode */ = {
+			isa = PBXGroup;
+			children = (
+				C50A552A2B66E6ED0062C6D8 /* CameraFrameView.swift */,
+				C50A552C2B66E70A0062C6D8 /* CombineCameraView.swift */,
+				C50A55312B66E7840062C6D8 /* CombineCameraViewModel.swift */,
+				C50A55332B66E7B50062C6D8 /* AVCameraView.swift */,
+				C50A55352B66E7DC0062C6D8 /* AVViewoPlayerView.swift */,
+			);
+			path = CombineCameraViewMode;
+			sourceTree = "<group>";
+		};
+		C50A552E2B66E72B0062C6D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C50A552F2B66E7570062C6D8 /* ToggleButton.swift */,
+				C50A55372B66E82A0062C6D8 /* ErrorView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C51F727F2B65A9DB00820AD1 = {
 			isa = PBXGroup;
 			children = (
@@ -113,13 +165,15 @@
 		C51F728A2B65A9DB00820AD1 /* PlanetApp */ = {
 			isa = PBXGroup;
 			children = (
+				C50A552E2B66E72B0062C6D8 /* Extensions */,
 				C5B854702B66996700D8F4DC /* Info.plist */,
 				C51F728B2B65A9DB00820AD1 /* PlanetAppApp.swift */,
 				C51F728D2B65A9DB00820AD1 /* ContentView.swift */,
 				C51F72C42B65C86C00820AD1 /* GetStartedPage */,
 				C51F72BA2B65AC0000820AD1 /* Onboarding */,
 				C51F72C92B65C96E00820AD1 /* PaywallPage */,
-				C51F72BC2B65B0B000820AD1 /* Pages */,
+				C51F72BC2B65B0B000820AD1 /* View */,
+				C50A55202B66E5340062C6D8 /* Manager */,
 				C51F728F2B65A9DC00820AD1 /* Assets.xcassets */,
 				C51F72942B65A9DC00820AD1 /* Persistence.swift */,
 				C51F72962B65A9DC00820AD1 /* PlanetApp.xcdatamodeld */,
@@ -163,12 +217,14 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		C51F72BC2B65B0B000820AD1 /* Pages */ = {
+		C51F72BC2B65B0B000820AD1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C50A55292B66E6CA0062C6D8 /* CombineCameraViewMode */,
 				C51F72BE2B65B0E000820AD1 /* HomeView.swift */,
+				C50A55272B66E6310062C6D8 /* CameraView.swift */,
 			);
-			path = Pages;
+			path = View;
 			sourceTree = "<group>";
 		};
 		C51F72C42B65C86C00820AD1 /* GetStartedPage */ = {
@@ -183,6 +239,7 @@
 		C51F72C92B65C96E00820AD1 /* PaywallPage */ = {
 			isa = PBXGroup;
 			children = (
+				C50A551E2B66D45D0062C6D8 /* PaywallView.swift */,
 			);
 			path = PaywallPage;
 			sourceTree = "<group>";
@@ -330,13 +387,24 @@
 			files = (
 				C51F72952B65A9DC00820AD1 /* Persistence.swift in Sources */,
 				C51F72C62B65C89B00820AD1 /* GetStartedPageView.swift in Sources */,
+				C50A55282B66E6310062C6D8 /* CameraView.swift in Sources */,
+				C50A552B2B66E6ED0062C6D8 /* CameraFrameView.swift in Sources */,
 				C51F72C32B65B2EB00820AD1 /* OnboardingPageView.swift in Sources */,
 				C51F728E2B65A9DB00820AD1 /* ContentView.swift in Sources */,
 				C51F72C82B65C8FA00820AD1 /* GetStartedView.swift in Sources */,
+				C50A552D2B66E70A0062C6D8 /* CombineCameraView.swift in Sources */,
 				C51F728C2B65A9DB00820AD1 /* PlanetAppApp.swift in Sources */,
+				C50A55322B66E7840062C6D8 /* CombineCameraViewModel.swift in Sources */,
 				C51F72C12B65B28800820AD1 /* OnboardingView.swift in Sources */,
+				C50A55362B66E7DC0062C6D8 /* AVViewoPlayerView.swift in Sources */,
+				C50A55252B66E5B10062C6D8 /* FrameManager.swift in Sources */,
+				C50A55302B66E7570062C6D8 /* ToggleButton.swift in Sources */,
+				C50A551F2B66D45D0062C6D8 /* PaywallView.swift in Sources */,
+				C50A55382B66E82A0062C6D8 /* ErrorView.swift in Sources */,
+				C50A55342B66E7B50062C6D8 /* AVCameraView.swift in Sources */,
 				C51F72BF2B65B0E000820AD1 /* HomeView.swift in Sources */,
 				C51F72982B65A9DC00820AD1 /* PlanetApp.xcdatamodeld in Sources */,
+				C50A55232B66E5620062C6D8 /* CameraManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

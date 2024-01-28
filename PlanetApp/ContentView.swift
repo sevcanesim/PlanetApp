@@ -30,7 +30,7 @@ struct ContentView: View {
                 Spacer()
                     .fullScreenCover(isPresented: $shouldShowModel, content: {
                         Button(action: {shouldShowModel.toggle()}, label: {
-                            Text("Fullscreen cover")
+                            CameraView()
                         })
                         
                     })
@@ -76,7 +76,7 @@ struct ContentView: View {
                         } else {
                             VStack(alignment: .center) {
                                 Image(tabBarImageNames[num])
-                                    .renderingMode(.original)
+                                    .renderingMode(.template)
                                     .font(.system(size: 26, weight: .bold))
                                     .tint(selectedIndex == num ? Color.accentColor : Color(.systemGray))
                                 Label(tabBarNames[num], systemImage: tabBarImageNames[num])
@@ -84,7 +84,6 @@ struct ContentView: View {
                                     .foregroundColor(selectedIndex == num ? Color.accentColor : Color(.systemGray))
                             }
                         }
-                        
                         Spacer()
                     }
                 }
