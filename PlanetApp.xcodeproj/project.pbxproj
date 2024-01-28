@@ -18,6 +18,7 @@
 		C50A55342B66E7B50062C6D8 /* AVCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A55332B66E7B50062C6D8 /* AVCameraView.swift */; };
 		C50A55362B66E7DC0062C6D8 /* AVViewoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A55352B66E7DC0062C6D8 /* AVViewoPlayerView.swift */; };
 		C50A55382B66E82A0062C6D8 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A55372B66E82A0062C6D8 /* ErrorView.swift */; };
+		C50A553B2B66F1960062C6D8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A553A2B66F1960062C6D8 /* DataModel.swift */; };
 		C51F728C2B65A9DB00820AD1 /* PlanetAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51F728B2B65A9DB00820AD1 /* PlanetAppApp.swift */; };
 		C51F728E2B65A9DB00820AD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51F728D2B65A9DB00820AD1 /* ContentView.swift */; };
 		C51F72902B65A9DC00820AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51F728F2B65A9DC00820AD1 /* Assets.xcassets */; };
@@ -65,6 +66,7 @@
 		C50A55332B66E7B50062C6D8 /* AVCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCameraView.swift; sourceTree = "<group>"; };
 		C50A55352B66E7DC0062C6D8 /* AVViewoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVViewoPlayerView.swift; sourceTree = "<group>"; };
 		C50A55372B66E82A0062C6D8 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		C50A553A2B66F1960062C6D8 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		C51F72882B65A9DB00820AD1 /* PlanetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51F728B2B65A9DB00820AD1 /* PlanetAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetAppApp.swift; sourceTree = "<group>"; };
 		C51F728D2B65A9DB00820AD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -142,6 +144,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		C50A55392B66F18A0062C6D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C50A553A2B66F1960062C6D8 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C51F727F2B65A9DB00820AD1 = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +175,7 @@
 		C51F728A2B65A9DB00820AD1 /* PlanetApp */ = {
 			isa = PBXGroup;
 			children = (
+				C50A55392B66F18A0062C6D8 /* Model */,
 				C50A552E2B66E72B0062C6D8 /* Extensions */,
 				C5B854702B66996700D8F4DC /* Info.plist */,
 				C51F728B2B65A9DB00820AD1 /* PlanetAppApp.swift */,
@@ -399,6 +410,7 @@
 				C50A55362B66E7DC0062C6D8 /* AVViewoPlayerView.swift in Sources */,
 				C50A55252B66E5B10062C6D8 /* FrameManager.swift in Sources */,
 				C50A55302B66E7570062C6D8 /* ToggleButton.swift in Sources */,
+				C50A553B2B66F1960062C6D8 /* DataModel.swift in Sources */,
 				C50A551F2B66D45D0062C6D8 /* PaywallView.swift in Sources */,
 				C50A55382B66E82A0062C6D8 /* ErrorView.swift in Sources */,
 				C50A55342B66E7B50062C6D8 /* AVCameraView.swift in Sources */,

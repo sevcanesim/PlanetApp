@@ -21,18 +21,14 @@ struct HomeView: View {
         return scale
     }
 
-    struct DataModel: Identifiable {
-          let id: String
-        let name: String
-        let imageName: String
-        }
-
         let data: [DataModel] = [
         .init(id: "0", name: "SteveJobs", imageName: "SteveJobs"),
         .init(id: "1", name: "Satya Nadella", imageName: "Satya Nadella"),
         .init(id: "2", name: "Jeff Bezos", imageName: "Jeff Bezos"),
         .init(id: "3", name: "Tim Cook", imageName: "Tim Cook")
         ]
+    @State private var showPaywall: Bool = true
+
     var body: some View {
         NavigationView {
             ScrollView {
@@ -69,7 +65,10 @@ struct HomeView: View {
                 VStack(alignment: .leading) {
                     Button(action: {}, label: {
                         NavigationLink {
-                            PaywallView()
+                            Spacer()
+                                .fullScreenCover(isPresented: $showPaywall, content: {
+                                PaywallView()
+                            })
                         } label: {
                             HStack {
                                 Image("premium-box")

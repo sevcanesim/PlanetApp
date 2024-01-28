@@ -32,7 +32,6 @@ struct ContentView: View {
                         Button(action: {shouldShowModel.toggle()}, label: {
                             CameraView()
                         })
-                        
                     })
 
                 switch selectedIndex {
